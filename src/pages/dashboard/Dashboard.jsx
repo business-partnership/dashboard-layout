@@ -10,6 +10,14 @@ const Dashboard = () => {
         veritatis saepe placeat rerum aliquid tempora earum consectetur,
         corporis ipsum aut praesentium!
       </p>
+      <div className='flex items-center justify-center'>
+        <button className='bg-blue-100 px-7 py-2 rounded-sm hover:opacity-75 text-base mx-2'>
+          Contact me
+        </button>{' '}
+        <button className='bg-blue-100 px-7 py-2 rounded-sm hover:opacity-75 text-base mx-2'>
+          Check now
+        </button>
+      </div>
     </div>
   )
 }
